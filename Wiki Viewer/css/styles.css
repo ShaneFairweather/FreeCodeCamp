@@ -1,0 +1,97 @@
+body {
+  background-color: #526682;
+  font-family: arial;
+  color: white;
+}
+
+.container p {
+  text-shadow: 3px 2px 2px rgba(0, 0, 0, 1);
+}
+
+.container {
+  margin: 0 auto;
+  width: 1000px;
+  font-size: 1.7em;
+  text-align: center;
+  margin-top: 1%;
+}
+
+#random {
+  cursor: pointer;
+  text-decoration: none;
+  color: white;
+}
+
+#random p:hover {
+  color: #6EDBFF;
+}
+
+#random:visited {
+  color: white;
+}
+
+#search {
+  border-radius: 2px;
+  margin: 0 auto;
+  height: 35px;
+  width: 300px;
+}
+
+.glyphicon {
+  color: black;
+  text-shadow: none;
+  position: absolute;
+  cursor: pointer;
+  font-size: .7em;
+  top: 8px;
+  left: 600px;
+}
+
+button:focus {
+  outline:0;
+}
+
+.hidden {
+  display: none;
+}
+
+button {
+  background: none;
+  color: black;
+  border-radius: 2px;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  color: black;
+}
+
+#results {
+  color: black;
+  text-shadow: none;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+
+#results div {
+  text-align: left;
+  background-color: white;
+  color: black;
+  font-size: .7em;
+  padding: 20px;
+  margin: 5px;
+}
+  
+#results p {
+  text-shadow: none;
+}
+
+#results div:hover {
+  cursor: pointer;
+  border-left: 7px solid #558AD4;
+}
+
+#results a:hover {
+  text-decoration: none;
+}
