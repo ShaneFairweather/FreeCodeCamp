@@ -1,0 +1,31 @@
+<html>
+<header>
+  <title>Deeper Weather App</title>
+  <link rel="stylesheet" href="css/styles.css" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+  <script src="js/app.js"></script>
+</header>
+
+<body>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6 col-md-offset-3">
+        <h1>Deeper Weather App</h1>
+        <div class="location"><span id="location"></span></div>
+        <div class="temperature"><span id="temp"></span><span id="metric">&deg;F</span></div>
+        <div class="description"><span id="conditions"></span></div>
+        <div>
+          <div class="wind"><span id="wind"></span><span id="direction"></span></div>
+        </div>
+        <div id="icon">
+        </div>
+        <div class="conversion">
+          <button class="buttons current" id="fah" autofocus="">&deg;F</button>
+          <button class="buttons" id="cel">&deg;C</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>

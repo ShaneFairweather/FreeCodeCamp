@@ -1,0 +1,96 @@
+
+body {
+  background-size: cover;
+  background-position: center;
+  font-family: arial;
+  text-align: center;
+  color: white;
+}
+
+.container {
+  border-radius: 2%;
+  text-shadow: 3px 2px 2px rgba(0, 0, 0, 1);
+  margin-top: 170px;
+}
+
+h1 {
+  padding: 20px;
+  font-size: 4em;
+}
+
+.location {
+  font-size: 2.2em;
+}
+
+.temperature {
+  font-size: 2em;
+}
+
+.humidity {
+  font-size: 1.5em;
+}
+
+#conditions {
+  padding: 10px;
+  font-size: 1.3em;
+}
+
+.wind {
+  margin-top: 5px;
+}
+
+.direction {
+  font-size: 1.2em;
+}
+
+img {
+  width: 90px;
+}
+
+.humidity img {
+  width: 25px;
+}
+
+.conversion {
+  margin: 0 auto;
+  width: 100px;
+}
+
+#icon {
+  margin: 0;
+}
+
+.buttons {
+  border-radius: 2px;
+  border: none;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  padding: 5px;
+  cursor: pointer;
+}
+/*
+.buttons:selected { 
+    background-color: #FAFAFA;
+}
+
+.buttons:focus { 
+    background-color: #FAFAFA;
+}
+*/
+
+.current {
+  background-color: #FAFAFA;
+}
+
+#fah {
+  float: left;
+  width: 50px;
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+}
+
+#cel {
+  float: right;
+  width: 50px;
+  border-right: 1px solid black;
+}
