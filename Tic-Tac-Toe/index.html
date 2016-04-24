@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<header>
+<title>FCC Tic-Tac-Toe</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="css/styles.css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
+
+    <script src="js/app.js"></script>
+  </header>
+<body>
+  <div class="container top-buffer">
+    <div class="board container-fluid">
+      <div class="topRow firstColumn square col-md-4" id="square1" data-name="s1"></div>
+      <div class="topRow secondColumn square col-md-4" id="square2" data-name="s2"></div>
+      <div class="topRow thirdColumn square col-md-4" id="square3" data-name="s3"></div>
+      <div class="midRow firstColumn square col-md-4" id="square4" data-name="s4"></div>
+      <div class="midRow secondColumn square col-md-4" id="square5" data-name="s5"></div>
+      <div class="midRow thirdColumn square col-md-4" id="square6" data-name="s6"></div>
+      <div class="botRow firstColumn square col-md-4" id="square7" data-name="s7"></div>
+      <div class="botRow secondColumn square col-md-4" id="square8" data-name="s8"></div>
+      <div class="botRow thirdColumn square col-md-4" id="square9" data-name="s9"></div>
+    </div>
+  </div>
+  
+  <!--<button class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal" id="penis">Choice</button>-->
+  <div class="modal" id="myModal">
+    <div class="modal-dialog modal-sm">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h4 class="modal-title">FCC Tic Tac Toe</h4>
+        </div>
+        <div class="modal-body">
+          X or O?
+        </div>
+        <div class="modal-footer">
+          <button class="btn btn-default" data-dismiss="modal" id="x">X</button>
+          <button class="btn btn-default" data-dismiss="modal" id="o">O</button>
+        </div>
+      </div>
+    </div>
+    
+</body>
+
+</html>
