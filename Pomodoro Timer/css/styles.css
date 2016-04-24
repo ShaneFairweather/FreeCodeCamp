@@ -1,0 +1,87 @@
+body {
+  background-color: #123252; /*#3B3B3B;*/
+  width: 100%;
+  text-align: center;
+  color: white;
+}
+
+.container {
+  width: 80%;
+}
+
+.header {
+  font-family: 'Oleo Script', Helvetica, sans-serif;
+  margin-bottom: 30px;
+}
+
+.header h1 {
+  font-size: 6em;
+  font-weight: bold;
+}
+
+.controlRow {
+  width: 30%;
+  margin: 0 auto;
+}
+
+.adjustTime {
+  font-size: 1.5em;
+}
+
+.controls {
+  -moz-user-select: -moz-none;
+  -khtml-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  font-size: 1.5em;
+}
+
+.controls div {
+  display: inline-block;
+}
+
+.add,
+.subtract {
+  cursor: pointer;
+}
+
+.timer {
+  border: 2px solid #6EB6FF; 
+  color: white;
+  border-radius: 50%;
+  font-size: 2em;
+  cursor: pointer;
+  position: relative;
+  width: 300px;
+  height: 300px;
+  margin: 0 auto;
+  padding-top: 85px;
+  top: 20px;
+}
+
+#remainingTime, #activeTime {
+  font-size: 2em;
+  font-family: 'arial';
+  position: relative;
+  width: 200px;
+  margin: 0 auto;
+}
+
+.stopbutton {
+  margin-top: 40px;
+  border-radius: 5px;
+  background-color: #123252; 
+  border: none;
+  padding: 5px;
+  width: 100px;
+  color: white;
+  font-size: 1.5em;
+  border: 2px solid #6EB6FF;
+  padding: 20px;
+}
+
+.buttons {
+  width: 500px;
+  margin: 0 auto;
+}
